@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		069B3219CA7B4FB3840596EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA6FC3CC9FF4449925BB41E /* Default-568h@2x.png */; };
+		3CEB499ED30A4F6E9FE31C52 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AB4C2E385F4E988D2CDCB9 /* Default-667h@2x.png */; };
+		1BAC725AFA9B40E0B9BD110A /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE094D499D4702BDECD7C9 /* Default-736h@3x.png */; };
+		049038D857C1414D91A1344F /* Default-Landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9BEFC4077D045B9B8AF556B /* Default-Landscape-568h@2x.png */; };
+		FF0EC115E9ED47B4BC2CF86E /* Default-Landscape-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB7CC53B874F0BAB497DA9 /* Default-Landscape-667h@2x.png */; };
+		F43D9E8F184541B5BBB33718 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E21E31CFB048028C0F7D63 /* Default-Landscape.png */; };
+		3B7CB4F1854148B88AA88A9A /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6786EE724D445BC880E5568 /* Default-Landscape@2x.png */; };
+		AA8CD0CB4E58478FA8E6465E /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9905B4BAD7B34C909F640548 /* Default-Landscape@3x.png */; };
+		849E31C591C14112BF31A344 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = CAEDC6D30A4C4A8DA0469AFE /* Default-Portrait.png */; };
+		E7D1AD389ACC44A689B6A67C /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476CFACA12194549B8419063 /* Default-Portrait@2x.png */; };
+		3A4415B2000A438ABDD79F0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6459697189D248B5937ADDFD /* Default.png */; };
+		83348057F38B4B67B9882557 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E59D7E6579BA4811BCCBD91B /* Default@2x.png */; };
+		8302C32A90E64046B54D559E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0474CD2418C24F759B3637D7 /* Icon-Small-50.png */; };
+		BA905B06A51B488AB66CFE44 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6240D48CCCD4CA3B7AE0534 /* Icon-Small-50@2x.png */; };
+		7CA9D86BC2DC4E3FA782959B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FBC9BABA2C24F1B814FA799 /* Icon-Small.png */; };
+		25EC1C2E9DAC4EF790613589 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE501B1E49D54EC5A73928AF /* Icon-Small@2x.png */; };
+		44E67BA0A3864F05A25C7EAB /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D4BBC76E9544B938A9C3EF0 /* build.xcconfig */; };
+		A1EE63AD9E2D4A46A0205729 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7D195A04EF43B18D4A1EA4 /* icon-40.png */; };
+		EE0B54A7786D4846BC6DA62B /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 143C383B1E2645EAA56DD829 /* icon-40@2x.png */; };
+		8402170CA59B499DB2E8B20F /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = C90957B6FE294A8D810F9D66 /* icon-60.png */; };
+		EC395C4B39A8498C8E628C24 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3272BF280E48538D3E7727 /* icon-60@2x.png */; };
+		050849EDC9FE48BC8CF0369D /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C1B2AC00FB41798D9E0209 /* icon-72.png */; };
+		89F3A91027F84E47B23F803B /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF861DCDBB04D9593C9EA0C /* icon-72@2x.png */; };
+		5A7E3E18A4854B7BB5C02BF5 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = D78FA0D3DA354DBA83912359 /* icon-76.png */; };
+		414DA864E6B94D36A80053FD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB1B71AC2BC42ECAB43CD63 /* icon-76@2x.png */; };
+		D1BA2120E36F46D183A414EE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DBB3BB2D6F4761A279554E /* icon.png */; };
+		A905EF4FEE8A40D28C8BBB29 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E03F01DABE4A12AA55D0F9 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		858B832E18CA111C00AB12DE /* chatAleman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatAleman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* chatAleman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chatAleman-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* chatAleman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chatAleman-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* chatAleman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatAleman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		F9B8C6A31ACEDEEB00547416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CFA6FC3CC9FF4449925BB41E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "chatAleman/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		92AB4C2E385F4E988D2CDCB9 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "chatAleman/Resources/Default-667h@2x.png"; sourceTree = "<group>"; };
+		8DCE094D499D4702BDECD7C9 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "chatAleman/Resources/Default-736h@3x.png"; sourceTree = "<group>"; };
+		D9BEFC4077D045B9B8AF556B /* Default-Landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-568h@2x.png"; path = "chatAleman/Resources/Default-Landscape-568h@2x.png"; sourceTree = "<group>"; };
+		1EAB7CC53B874F0BAB497DA9 /* Default-Landscape-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h@2x.png"; path = "chatAleman/Resources/Default-Landscape-667h@2x.png"; sourceTree = "<group>"; };
+		51E21E31CFB048028C0F7D63 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "chatAleman/Resources/Default-Landscape.png"; sourceTree = "<group>"; };
+		E6786EE724D445BC880E5568 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "chatAleman/Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		9905B4BAD7B34C909F640548 /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@3x.png"; path = "chatAleman/Resources/Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		CAEDC6D30A4C4A8DA0469AFE /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "chatAleman/Resources/Default-Portrait.png"; sourceTree = "<group>"; };
+		476CFACA12194549B8419063 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "chatAleman/Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		6459697189D248B5937ADDFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "chatAleman/Resources/Default.png"; sourceTree = "<group>"; };
+		E59D7E6579BA4811BCCBD91B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "chatAleman/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		0474CD2418C24F759B3637D7 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "chatAleman/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		C6240D48CCCD4CA3B7AE0534 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "chatAleman/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		7FBC9BABA2C24F1B814FA799 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "chatAleman/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		BE501B1E49D54EC5A73928AF /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "chatAleman/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		4D4BBC76E9544B938A9C3EF0 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "chatAleman/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		1A7D195A04EF43B18D4A1EA4 /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "chatAleman/Resources/icon-40.png"; sourceTree = "<group>"; };
+		143C383B1E2645EAA56DD829 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "chatAleman/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		C90957B6FE294A8D810F9D66 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "chatAleman/Resources/icon-60.png"; sourceTree = "<group>"; };
+		AC3272BF280E48538D3E7727 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "chatAleman/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		89C1B2AC00FB41798D9E0209 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "chatAleman/Resources/icon-72.png"; sourceTree = "<group>"; };
+		BEF861DCDBB04D9593C9EA0C /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "chatAleman/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		D78FA0D3DA354DBA83912359 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "chatAleman/Resources/icon-76.png"; sourceTree = "<group>"; };
+		7CB1B71AC2BC42ECAB43CD63 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "chatAleman/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		18DBB3BB2D6F4761A279554E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "chatAleman/Resources/icon.png"; sourceTree = "<group>"; };
+		F2E03F01DABE4A12AA55D0F9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "chatAleman/Resources/icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* chatAleman */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* chatAleman.app */,
+				858B843318CA22B800AB12DE /* chatAleman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* chatAleman */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				F9B8C6A21ACEDEEB00547416 /* LaunchScreen.xib */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = chatAleman;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* chatAleman-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* chatAleman-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFA6FC3CC9FF4449925BB41E /* Default-568h@2x.png */,
+				92AB4C2E385F4E988D2CDCB9 /* Default-667h@2x.png */,
+				8DCE094D499D4702BDECD7C9 /* Default-736h@3x.png */,
+				D9BEFC4077D045B9B8AF556B /* Default-Landscape-568h@2x.png */,
+				1EAB7CC53B874F0BAB497DA9 /* Default-Landscape-667h@2x.png */,
+				51E21E31CFB048028C0F7D63 /* Default-Landscape.png */,
+				E6786EE724D445BC880E5568 /* Default-Landscape@2x.png */,
+				9905B4BAD7B34C909F640548 /* Default-Landscape@3x.png */,
+				CAEDC6D30A4C4A8DA0469AFE /* Default-Portrait.png */,
+				476CFACA12194549B8419063 /* Default-Portrait@2x.png */,
+				6459697189D248B5937ADDFD /* Default.png */,
+				E59D7E6579BA4811BCCBD91B /* Default@2x.png */,
+				0474CD2418C24F759B3637D7 /* Icon-Small-50.png */,
+				C6240D48CCCD4CA3B7AE0534 /* Icon-Small-50@2x.png */,
+				7FBC9BABA2C24F1B814FA799 /* Icon-Small.png */,
+				BE501B1E49D54EC5A73928AF /* Icon-Small@2x.png */,
+				4D4BBC76E9544B938A9C3EF0 /* build.xcconfig */,
+				1A7D195A04EF43B18D4A1EA4 /* icon-40.png */,
+				143C383B1E2645EAA56DD829 /* icon-40@2x.png */,
+				C90957B6FE294A8D810F9D66 /* icon-60.png */,
+				AC3272BF280E48538D3E7727 /* icon-60@2x.png */,
+				89C1B2AC00FB41798D9E0209 /* icon-72.png */,
+				BEF861DCDBB04D9593C9EA0C /* icon-72@2x.png */,
+				D78FA0D3DA354DBA83912359 /* icon-76.png */,
+				7CB1B71AC2BC42ECAB43CD63 /* icon-76@2x.png */,
+				18DBB3BB2D6F4761A279554E /* icon.png */,
+				F2E03F01DABE4A12AA55D0F9 /* icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* chatAleman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "chatAleman" */;
+			buildPhases = (
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatAleman;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* chatAleman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "chatAleman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* chatAleman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				069B3219CA7B4FB3840596EA /* Default-568h@2x.png in Resources */,
+				3CEB499ED30A4F6E9FE31C52 /* Default-667h@2x.png in Resources */,
+				1BAC725AFA9B40E0B9BD110A /* Default-736h@3x.png in Resources */,
+				049038D857C1414D91A1344F /* Default-Landscape-568h@2x.png in Resources */,
+				FF0EC115E9ED47B4BC2CF86E /* Default-Landscape-667h@2x.png in Resources */,
+				F43D9E8F184541B5BBB33718 /* Default-Landscape.png in Resources */,
+				3B7CB4F1854148B88AA88A9A /* Default-Landscape@2x.png in Resources */,
+				AA8CD0CB4E58478FA8E6465E /* Default-Landscape@3x.png in Resources */,
+				849E31C591C14112BF31A344 /* Default-Portrait.png in Resources */,
+				E7D1AD389ACC44A689B6A67C /* Default-Portrait@2x.png in Resources */,
+				3A4415B2000A438ABDD79F0B /* Default.png in Resources */,
+				83348057F38B4B67B9882557 /* Default@2x.png in Resources */,
+				8302C32A90E64046B54D559E /* Icon-Small-50.png in Resources */,
+				BA905B06A51B488AB66CFE44 /* Icon-Small-50@2x.png in Resources */,
+				7CA9D86BC2DC4E3FA782959B /* Icon-Small.png in Resources */,
+				25EC1C2E9DAC4EF790613589 /* Icon-Small@2x.png in Resources */,
+				44E67BA0A3864F05A25C7EAB /* build.xcconfig in Resources */,
+				A1EE63AD9E2D4A46A0205729 /* icon-40.png in Resources */,
+				EE0B54A7786D4846BC6DA62B /* icon-40@2x.png in Resources */,
+				8402170CA59B499DB2E8B20F /* icon-60.png in Resources */,
+				EC395C4B39A8498C8E628C24 /* icon-60@2x.png in Resources */,
+				050849EDC9FE48BC8CF0369D /* icon-72.png in Resources */,
+				89F3A91027F84E47B23F803B /* icon-72@2x.png in Resources */,
+				5A7E3E18A4854B7BB5C02BF5 /* icon-76.png in Resources */,
+				414DA864E6B94D36A80053FD /* icon-76@2x.png in Resources */,
+				D1BA2120E36F46D183A414EE /* icon.png in Resources */,
+				A905EF4FEE8A40D28C8BBB29 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9B8C6A21ACEDEEB00547416 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B8C6A31ACEDEEB00547416 /* en */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatAleman/chatAleman-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/chatAleman/chatAleman-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = chatAleman;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chatAleman/chatAleman-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/chatAleman/chatAleman-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = chatAleman;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "chatAleman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "chatAleman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}
